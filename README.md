@@ -6,7 +6,7 @@ This is the GitHub repository for project_03 for the class Computing for the Web
 The file `ebay-dl.py` is a python program that takes an input search term for eBay, and then generates either a `.json` or `.csv` file depending on what has been inputted into the command line. This project will output the following information about the eBay item:
 <ol>
   <li>name: name of the item
-  <li>price: stores as an integer; if the output is 5999, this means the actual price is 59.99)
+  <li>price: stores as an integer; if the output is 5999, this means the actual price is 59.99
   <li>status: describes the condition of the item
   <li>shipping: price of the shipping
   <li>free_returns: boolean value for whether there are free returns or not
