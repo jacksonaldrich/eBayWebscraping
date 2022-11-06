@@ -24,11 +24,11 @@ $ python3 ebay-dl.py 'soccer ball'
 
 The program will then download the first 10 pages (by default) of the search term! Also, if your search contains multiple words, be sure to use quotation marks around them!
 
-By default, this program will download the data into a `.json` fole, but this can be changed. If you prefer a `.csv` fprmat, just type the following code into the command line - note the `--csv` added to the end of the previous command: 
+By default, this program will download the data into a `.json` fole, but this can be changed. If you prefer a `.csv` fprmat, just type the following code into the command line - note the `--csv=True` added to the end of the previous command: 
 ```
-$ python3 ebay-dl.py 'name of the item (can contain spaces)' --csv
+$ python3 ebay-dl.py 'name of the item (can contain spaces)' --csv=True
 ```
 Such as:
 ```
-$ python3 ebay-dl.py 'soccer ball' --csv
+$ python3 ebay-dl.py 'soccer ball' --csv=True
 ```
