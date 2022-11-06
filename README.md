@@ -33,7 +33,7 @@ Such as:
 $ python3 ebay-dl.py 'soccer ball' --csv=True
 ```
 
-Finally, if you want to modify the number of pages scraped, type in the following command into the command line (by adding `--num+pages`):
+Finally, if you want to modify the number of pages scraped, type in the following command into the command line (by adding `--num_pages`):
 ```
 $ python3 ebay-dl.py 'soccer ball' --num_pages=(enter integer here)
 ```
