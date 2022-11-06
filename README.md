@@ -3,14 +3,14 @@
 
 This is the GitHub repository for project_03 for the class Computing for the Web (CSCI040). The instructions and rubric for this project can be found [here](https://github.com/mikeizbicki/cmc-csci040/tree/2022fall/project_03).
 
-The file `ebay-d.pyl` is a python program that takes an input search term for eBay, and then generates either a `.json` or `.csv` file depending on what has been inputted into the command line. This project will output the following information about the eBay item:
+The file `ebay-d.py` is a python program that takes an input search term for eBay, and then generates either a `.json` or `.csv` file depending on what has been inputted into the command line. This project will output the following information about the eBay item:
 <ol>
-  <li>name: name of the item</li>
-  <li>price: stores as an integer; if the output is 5999, this means the actual price is %59.99)</li>
-  <li>status: describes the condition of the item/li>
-  <li>shipping: price of the shipping/li>
-  <li>free_returns: boolean value for whether there are free returns or not/li>
-  <li>items_sold: number of items sold/li>
+  <li>name: name of the item
+  <li>price: stores as an integer; if the output is 5999, this means the actual price is 59.99)
+  <li>status: describes the condition of the item
+  <li>shipping: price of the shipping
+  <li>free_returns: boolean value for whether there are free returns or not
+  <li>items_sold: number of items sold
 </ol>
 
 To use this python program (`ebay-dl`), type the following into the command line (also known as the terminal):
