@@ -13,6 +13,7 @@ The file `ebay-dl.py` is a python program that takes an input search term for eB
   <li>items_sold: number of items sold
 </ol>
 
+# How to use this program
 To use this python program `ebay-dl`, type the following into the command line (also known as the terminal):
 ```
 $ python3 ebay-dl.py 'name of the item (can contain spaces)'
@@ -24,6 +25,7 @@ $ python3 ebay-dl.py 'soccer ball'
 
 The program will then download the first 10 pages (by default) of the search term! Also, if your search contains multiple words, be sure to use quotation marks around them!
 
+# How to download the data as a .csv file
 By default, this program will download the data into a `.json` fole, but this can be changed. If you prefer a `.csv` fprmat, just type the following code into the command line - note the `--csv=True` added to the end of the previous command: 
 ```
 $ python3 ebay-dl.py 'name of the item (can contain spaces)' --csv=True
@@ -33,6 +35,7 @@ Such as:
 $ python3 ebay-dl.py 'soccer ball' --csv=True
 ```
 
+# How to modify the number of pages scraped
 Finally, if you want to modify the number of pages scraped, type in the following command into the command line (by adding `--num_pages`):
 ```
 $ python3 ebay-dl.py 'soccer ball' --num_pages=(enter integer here)
